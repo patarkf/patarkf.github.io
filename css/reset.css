@@ -46,6 +46,6 @@ mark {
 input, select {
   vertical-align: middle;
 }
-a:hover {
+a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
