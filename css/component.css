@@ -48,6 +48,9 @@
 	display: block;
 	-webkit-font-smoothing: antialiased;
 }
+.hi-icon-gmail:before {
+	content: "\f003";
+}
 .hi-icon-github:before {
 	content: "\f113";
 }
@@ -68,8 +71,11 @@
 }
 
 /* Hover effects */
+.hi-icon-gmail:hover {
+	color: #bb0000;
+}
 .hi-icon-github:hover {
-	color: black;
+	color: #222222;
 }
 .hi-icon-skype:hover {
 	color: #00aced;
