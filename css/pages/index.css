@@ -1,0 +1,26 @@
+@import url("../reset.css");
+html, body {
+	width: 99%;
+	height: 100%;
+	font-size: 20px;
+	background: black;
+	color: #333333;
+	text-align: center;
+}
+body {
+	background-image: url("../../images/pelotas.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	display:
+	-moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	display: box;
+	box-pack: center;
+	box-align: center;
+	font-family: 'Oswald', sans-serif !important;
+}

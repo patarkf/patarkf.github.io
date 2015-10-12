@@ -1,0 +1,108 @@
+.socialMedias {
+	margin: 0 auto;
+	text-align: center;
+}
+.socialMedias-icon {
+	background: rgba(255,255,255,0.1);
+	-webkit-transition: background 0.2s, color 0.2s;
+	-moz-transition: background 0.2s, color 0.2s;
+	transition: background 0.2s, color 0.2s;
+	border-radius: 50%;
+	color: #D6DE9D;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0px;
+	height: 90px;
+	margin: 15px 10px;
+	position: relative;
+	text-align: center;
+	width: 90px;
+	z-index: 1;
+}
+.socialMedias-icon:after {
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	border-radius: 50%;
+	content: '';
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 100%;
+	left: -7px;
+	opacity: 0;
+	padding: 7px;
+	pointer-events: none;
+	position: absolute;
+	top: -7px;
+	width: 100%;
+}
+.socialMedias-icon:before {
+	display: block;
+	font-family: FontAwesome;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 90px;
+	text-transform: none;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+.socialMedias-icon:hover {
+	background: rgb(214, 222, 147);
+}
+.socialMedias-icon:hover:after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.socialMedias-gmail:before {
+	content: "\f003";
+}
+.socialMedias-github:before {
+	content: "\f113";
+}
+.socialMedias-skype:before {
+	content: "\f17e";
+}
+.socialMedias-instagram:before {
+	content: "\f16d";
+}
+.socialMedias-linkedin:before {
+	content: "\f08c";
+}
+.socialMedias-spotify:before {
+	content: "\f1bc";
+}
+.socialMedias-facebook:before {
+	content: "\f082";
+}
+.socialMedias-gmail:hover {
+	color: #bb0000;
+}
+.socialMedias-github:hover {
+	color: #222222;
+}
+.socialMedias-skype:hover {
+	color: #00aced;
+}
+.socialMedias-instagram:hover {
+	color: #517fa4;
+}
+.socialMedias-linkedin:hover {
+	color: #007bb6;
+}
+.socialMedias-spotify:hover {
+	color: #00bf8f;
+}
+.socialMedias-facebook:hover {
+	color: #3b5998;
+}
